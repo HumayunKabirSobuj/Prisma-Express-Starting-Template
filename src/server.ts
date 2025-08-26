@@ -8,7 +8,7 @@ const port = 5000;
 
 async function main() {
   const httpServer: HTTPServer = app.listen(port, () => {
-    console.log("🚀 Service is running on port", port);
+    console.log("🚀 Server is running on port", port);
   });
   const io = initSocket(httpServer); // ✅ init socket server
  
