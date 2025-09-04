@@ -1,2 +1,2 @@
-// Searchable fields for different entities
 
+export const UserSearchableFields: string[] = ["name", "email"];
